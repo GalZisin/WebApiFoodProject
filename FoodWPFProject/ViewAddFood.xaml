@@ -1,0 +1,20 @@
+﻿<Window x:Class="FoodWPFProject.ViewAddFood"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodWPFProject"
+        mc:Ignorable="d"
+        Title="ViewAddFood" Height="450" Width="800">
+    <Grid>
+        <TextBlock  HorizontalAlignment="Left" Margin="75,59,0,0" TextWrapping="Wrap" Text="name" VerticalAlignment="Top" Height="37" Width="86"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="75,205,0,0" TextWrapping="Wrap" Text="calories" VerticalAlignment="Top" Height="37" Width="86"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="75,158,0,0" TextWrapping="Wrap" Text="ingredients" VerticalAlignment="Top" Height="37" Width="86"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="75,111,0,0" TextWrapping="Wrap" Text="grade" VerticalAlignment="Top" Height="37" Width="86"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="42" Margin="286,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="438"/>
+        <TextBox x:Name="calories" HorizontalAlignment="Left" Height="42" Margin="286,200,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="438"/>
+        <TextBox x:Name="ingredients" HorizontalAlignment="Left" Height="42" Margin="286,153,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="438"/>
+        <TextBox x:Name="grade" Height="42" Margin="286,106,69.333,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="75,317,0,0" VerticalAlignment="Top" Width="161" Height="45" Click="Button_Click"/>
+    </Grid>
+</Window>

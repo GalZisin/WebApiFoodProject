@@ -1,0 +1,20 @@
+﻿<Window x:Class="FoodWPFProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodWPFProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Click here to get All Foods" HorizontalAlignment="Left" 
+                Margin="96,63,0,0" VerticalAlignment="Top" Width="212" Height="40" Click="Button_Click"/>
+
+
+        <DataGrid x:Name="grid" AutoGenerateColumns="True" FontSize="10" BorderBrush="Black" Margin="41,152,47.6,38"/>
+        <Button Content="Click here to add food" HorizontalAlignment="Left" Margin="428,63,0,0" VerticalAlignment="Top" Width="200" Height="40" Click="Button_Click2"/>
+
+    </Grid>
+</Window>
+
+
